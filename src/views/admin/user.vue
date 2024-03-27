@@ -1,9 +1,13 @@
+<script setup lang="ts"></script>
+
 <template>
-	admin/user.vue
+  views -> admin/user.vue
 </template>
 
-<script lang="ts" setup>
-
-</script>
-
 <style lang="scss" scoped></style>
+
+<script>
+export default {
+  route: { path: '/user' },
+}
+</script>

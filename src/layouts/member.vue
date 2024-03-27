@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <h2>member.vue</h2>
+  <h1>layouts -> member.vue</h1>
   <router-view />
 </template>
 

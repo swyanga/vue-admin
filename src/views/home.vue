@@ -3,8 +3,7 @@
 </script>
 
 <template>
-    首页 - home.vue
+    <h2>首页 - home.vue</h2>
 </template>
 
-<style lang="scss">
-</style>
+<style lang="scss"></style>

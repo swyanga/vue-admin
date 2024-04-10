@@ -9,10 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "loadsh": "^0.0.4",
     "vue": "^3.3.11",
     "vue-router": "4"
   },
   "devDependencies": {
+    "@types/lodash": "^4.17.0",
     "@types/node": "^20.11.5",
     "@vitejs/plugin-vue": "^4.5.2",
     "path": "^0.12.7",

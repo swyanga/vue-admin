@@ -1,5 +1,6 @@
 <script setup lang="ts">
-
+// 没有声明提示
+console.log(import.meta.env);
 </script>
 
 <template>

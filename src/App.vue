@@ -1,19 +1,13 @@
 <script setup lang="ts">
-import { env } from './types/helper'
 
-// console.log(import.meta.env.VITE_ROUTE_AUTOLOAD);
-console.log(env);
+// const response = await fetch("http://localhost:5173/api/info").then(r => r.json())
+// console.log(response.data.avatar);
+// import userApi from './apis/userApi'
+// const response = await userApi.login()
+// console.log(response)
 </script>
 
 <template>
-  <h1 className="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-  <ul>
-    <li class="bg-red-700">首页</li>
-    <li>商品</li>
-    <li>评价</li>
-  </ul>
   <router-view />
 </template>
 

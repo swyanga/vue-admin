@@ -1,4 +1,4 @@
-import { ConfigEnv, defineConfig, loadEnv } from 'vite'
+import { ConfigEnv, UserConfigExport, defineConfig, loadEnv } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import alias from './vite/alias';
 import { parseEnv } from './vite/util';

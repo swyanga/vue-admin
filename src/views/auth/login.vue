@@ -1,4 +1,11 @@
 <script lang="ts" setup>
+import { reactive } from 'vue'
+
+const form = reactive({
+  account: '123',
+  password: ''
+})
+
 </script>
 
 <template>
@@ -8,8 +15,8 @@
       <div class="p-6">
         <h2 class="text-center text-gray-700 text-lg mt-3">会员登录</h2>
         <div class="mt-8">
-          <hdInput />
-          <hdInput class="mt-5" />
+          <hdInput placeholder="请输入邮箱或手机号" v-model="form.account" />
+          <hdInput placeholder="请输入登录密码" class="mt-5" />
         </div>
         <hdButton />
         <div class="flex gap-2 justify-center mt-5">

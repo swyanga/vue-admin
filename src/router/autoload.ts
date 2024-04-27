@@ -1,5 +1,5 @@
 import { RouteRecordRaw } from "vue-router";
-
+import { env } from '@/utils/helper'
 // 布局页面
 const layouts = import.meta.glob("../layouts/*.vue", { eager: true })
 
@@ -60,4 +60,6 @@ function getRouteByModule(file: string, module: any) {
   return Object.assign(route, module.default?.route)
 }
 
-export default getRoutes()
+const routes = env.VITE_ROUTER_AUTOLOAD ? getRoutes() : [] as RouteRecordRaw[];
+
+export default routes;

@@ -440,6 +440,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vee-validate/rules@npm:^4.12.6":
+  version: 4.12.6
+  resolution: "@vee-validate/rules@npm:4.12.6"
+  dependencies:
+    vee-validate: "npm:4.12.6"
+  checksum: 10c0/fb2cc9a0d9845aa09a5e3a1090ecbd152f6c8e90bf4efad8ee14584b93d6bfab741c70b4c54c9721375ea82c7cfb05ef3ac93d4e8cc31cbbf07384816da59c42
+  languageName: node
+  linkType: hard
+
 "@vitejs/plugin-vue@npm:^4.5.2":
   version: 4.6.2
   resolution: "@vitejs/plugin-vue@npm:4.6.2"
@@ -525,6 +534,13 @@ __metadata:
     "@vue/compiler-dom": "npm:3.4.15"
     "@vue/shared": "npm:3.4.15"
   checksum: 10c0/c71c4df64c1df81f0b0e0e99236135a3e3989ba5d6204eb3c0fac804f7a927a0eb6f6ea67f96df63263ba3667f3a833adb20d76866236124befdf7652ca7a8cd
+  languageName: node
+  linkType: hard
+
+"@vue/devtools-api@npm:^6.0.0-beta.15, @vue/devtools-api@npm:^6.5.1":
+  version: 6.6.1
+  resolution: "@vue/devtools-api@npm:6.6.1"
+  checksum: 10c0/ab9a1e09baae514b0d3a8bf1d670ecb7724f7e55b82eea30aa2e7255e6200b45c1086c1376560f243cf86e98c0726e94d69cefe0ad23dfd50c7c49dfcb1fbf21
   languageName: node
   linkType: hard
 
@@ -2074,6 +2090,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"property-expr@npm:^2.0.5":
+  version: 2.0.6
+  resolution: "property-expr@npm:2.0.6"
+  checksum: 10c0/69b7da15038a1146d6447c69c445306f66a33c425271235bb20507f1846dbf9577a8f9dfafe8acbfcb66f924b270157f155248308f026a68758f35fc72265b3c
+  languageName: node
+  linkType: hard
+
 "proxy-from-env@npm:^1.1.0":
   version: 1.1.0
   resolution: "proxy-from-env@npm:1.1.0"
@@ -2207,6 +2230,7 @@ __metadata:
     "@types/lodash": "npm:^4.17.0"
     "@types/mockjs": "npm:^1"
     "@types/node": "npm:^20.11.5"
+    "@vee-validate/rules": "npm:^4.12.6"
     "@vitejs/plugin-vue": "npm:^4.5.2"
     autoprefixer: "npm:^10.4.19"
     axios: "npm:^1.6.8"
@@ -2217,11 +2241,13 @@ __metadata:
     sass: "npm:^1.75.0"
     tailwindcss: "npm:^3.4.3"
     typescript: "npm:^5.2.2"
+    vee-validate: "npm:4.5.8"
     vite: "npm:^5.0.8"
     vite-plugin-mock: "npm:^3.0.1"
     vue: "npm:^3.3.11"
     vue-router: "npm:4"
     vue-tsc: "npm:^1.8.25"
+    yup: "npm:^1.4.0"
   languageName: unknown
   linkType: soft
 
@@ -2494,6 +2520,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"tiny-case@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "tiny-case@npm:1.0.3"
+  checksum: 10c0/c0cbed35884a322265e2cd61ff435168d1ea523f88bf3864ce14a238ae9169e732649776964283a66e4eb882e655992081d4daf8c865042e2233425866111b35
+  languageName: node
+  linkType: hard
+
 "to-fast-properties@npm:^2.0.0":
   version: 2.0.0
   resolution: "to-fast-properties@npm:2.0.0"
@@ -2510,10 +2543,31 @@ __metadata:
   languageName: node
   linkType: hard
 
+"toposort@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "toposort@npm:2.0.2"
+  checksum: 10c0/ab9ca91fce4b972ccae9e2f539d755bf799a0c7eb60da07fd985fce0f14c159ed1e92305ff55697693b5bc13e300f5417db90e2593b127d421c9f6c440950222
+  languageName: node
+  linkType: hard
+
 "ts-interface-checker@npm:^0.1.9":
   version: 0.1.13
   resolution: "ts-interface-checker@npm:0.1.13"
   checksum: 10c0/232509f1b84192d07b81d1e9b9677088e590ac1303436da1e92b296e9be8e31ea042e3e1fd3d29b1742ad2c959e95afe30f63117b8f1bc3a3850070a5142fea7
+  languageName: node
+  linkType: hard
+
+"type-fest@npm:^2.19.0":
+  version: 2.19.0
+  resolution: "type-fest@npm:2.19.0"
+  checksum: 10c0/a5a7ecf2e654251613218c215c7493574594951c08e52ab9881c9df6a6da0aeca7528c213c622bc374b4e0cb5c443aa3ab758da4e3c959783ce884c3194e12cb
+  languageName: node
+  linkType: hard
+
+"type-fest@npm:^4.8.3":
+  version: 4.17.0
+  resolution: "type-fest@npm:4.17.0"
+  checksum: 10c0/7c474dca230b351f184fed07c037a9440d10c10f2570b1f591bded4760361d89efbeec0185038dde6557b3ea6622dba3579d8b36d5415b89ec9efbc8781a6f22
   languageName: node
   linkType: hard
 
@@ -2603,6 +2657,29 @@ __metadata:
   version: 1.0.1
   resolution: "utils-merge@npm:1.0.1"
   checksum: 10c0/02ba649de1b7ca8854bfe20a82f1dfbdda3fb57a22ab4a8972a63a34553cf7aa51bc9081cf7e001b035b88186d23689d69e71b510e610a09a4c66f68aa95b672
+  languageName: node
+  linkType: hard
+
+"vee-validate@npm:4.12.6":
+  version: 4.12.6
+  resolution: "vee-validate@npm:4.12.6"
+  dependencies:
+    "@vue/devtools-api": "npm:^6.5.1"
+    type-fest: "npm:^4.8.3"
+  peerDependencies:
+    vue: ^3.3.11
+  checksum: 10c0/2341f23586b03ef9536a950155660ad3c003275094763649069817c07f66215dcaf5e5abb95a4a8cb8a832c8a2102ff0592a2c3fb36f31a89c5bf578ed33b638
+  languageName: node
+  linkType: hard
+
+"vee-validate@npm:4.5.8":
+  version: 4.5.8
+  resolution: "vee-validate@npm:4.5.8"
+  dependencies:
+    "@vue/devtools-api": "npm:^6.0.0-beta.15"
+  peerDependencies:
+    vue: ^3.0.0
+  checksum: 10c0/b6d20c693070422a8d54b1a642c7b1b62a87497f77a501aaf2ebf80a635a6fd3833c84fbee2fa62ca77a3bcdd187f01c8f555eeddd40793a0a138b573faef1ed
   languageName: node
   linkType: hard
 
@@ -2776,5 +2853,17 @@ __metadata:
   bin:
     yaml: bin.mjs
   checksum: 10c0/816057dbaea16a7dfb0b868ace930f143dece96bbb4c4fbb6f38aa389166f897240d9fa535dbfd6b1b0d9442416f4abcc698e63f82394d0c67b329aa6c2be576
+  languageName: node
+  linkType: hard
+
+"yup@npm:^1.4.0":
+  version: 1.4.0
+  resolution: "yup@npm:1.4.0"
+  dependencies:
+    property-expr: "npm:^2.0.5"
+    tiny-case: "npm:^1.0.3"
+    toposort: "npm:^2.0.2"
+    type-fest: "npm:^2.19.0"
+  checksum: 10c0/fe142141365eed0f78fb2e18bdd2f10bf101385dae12a5f9de14884448067bdca16a54b547fc0bffec04a098dd70b4519ff366422f3da006fd11a0717a7863ac
   languageName: node
   linkType: hard

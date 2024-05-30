@@ -440,6 +440,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vee-validate/i18n@npm:^4.12.6":
+  version: 4.12.6
+  resolution: "@vee-validate/i18n@npm:4.12.6"
+  checksum: 10c0/519cdf295e261ad08227c210d36c34377d47c94e744babd2326871f77f551f888b5231f2cc8a89b8b0f8048e5485d9604ac8af904117277ad3c9a27b4c4edf87
+  languageName: node
+  linkType: hard
+
 "@vee-validate/rules@npm:^4.12.6":
   version: 4.12.6
   resolution: "@vee-validate/rules@npm:4.12.6"
@@ -537,17 +544,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/devtools-api@npm:^6.0.0-beta.15, @vue/devtools-api@npm:^6.5.1":
-  version: 6.6.1
-  resolution: "@vue/devtools-api@npm:6.6.1"
-  checksum: 10c0/ab9a1e09baae514b0d3a8bf1d670ecb7724f7e55b82eea30aa2e7255e6200b45c1086c1376560f243cf86e98c0726e94d69cefe0ad23dfd50c7c49dfcb1fbf21
-  languageName: node
-  linkType: hard
-
 "@vue/devtools-api@npm:^6.5.0":
   version: 6.5.1
   resolution: "@vue/devtools-api@npm:6.5.1"
   checksum: 10c0/d28b00a64df2c5b3351f74ad28ec7fe65e9ee6e20e585c0130ae6ab74b7e616d4eda3b3e82d39ad391e959be4bbb7aa7221d8253bbca1f3021ad07d4430095f9
+  languageName: node
+  linkType: hard
+
+"@vue/devtools-api@npm:^6.5.1":
+  version: 6.6.1
+  resolution: "@vue/devtools-api@npm:6.6.1"
+  checksum: 10c0/ab9a1e09baae514b0d3a8bf1d670ecb7724f7e55b82eea30aa2e7255e6200b45c1086c1376560f243cf86e98c0726e94d69cefe0ad23dfd50c7c49dfcb1fbf21
   languageName: node
   linkType: hard
 
@@ -2230,6 +2237,7 @@ __metadata:
     "@types/lodash": "npm:^4.17.0"
     "@types/mockjs": "npm:^1"
     "@types/node": "npm:^20.11.5"
+    "@vee-validate/i18n": "npm:^4.12.6"
     "@vee-validate/rules": "npm:^4.12.6"
     "@vitejs/plugin-vue": "npm:^4.5.2"
     autoprefixer: "npm:^10.4.19"
@@ -2241,7 +2249,7 @@ __metadata:
     sass: "npm:^1.75.0"
     tailwindcss: "npm:^3.4.3"
     typescript: "npm:^5.2.2"
-    vee-validate: "npm:4.5.8"
+    vee-validate: "npm:^4.12.6"
     vite: "npm:^5.0.8"
     vite-plugin-mock: "npm:^3.0.1"
     vue: "npm:^3.3.11"
@@ -2660,7 +2668,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vee-validate@npm:4.12.6":
+"vee-validate@npm:4.12.6, vee-validate@npm:^4.12.6":
   version: 4.12.6
   resolution: "vee-validate@npm:4.12.6"
   dependencies:
@@ -2669,17 +2677,6 @@ __metadata:
   peerDependencies:
     vue: ^3.3.11
   checksum: 10c0/2341f23586b03ef9536a950155660ad3c003275094763649069817c07f66215dcaf5e5abb95a4a8cb8a832c8a2102ff0592a2c3fb36f31a89c5bf578ed33b638
-  languageName: node
-  linkType: hard
-
-"vee-validate@npm:4.5.8":
-  version: 4.5.8
-  resolution: "vee-validate@npm:4.5.8"
-  dependencies:
-    "@vue/devtools-api": "npm:^6.0.0-beta.15"
-  peerDependencies:
-    vue: ^3.0.0
-  checksum: 10c0/b6d20c693070422a8d54b1a642c7b1b62a87497f77a501aaf2ebf80a635a6fd3833c84fbee2fa62ca77a3bcdd187f01c8f555eeddd40793a0a138b573faef1ed
   languageName: node
   linkType: hard
 

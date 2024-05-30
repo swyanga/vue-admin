@@ -37,6 +37,7 @@
     "vite.config.ts",
     "vite/**/*.ts",
     "mock/**/*.ts",
+    "types/**/*.ts",
     "types/**/*.d.ts"
   ],
   "references": [

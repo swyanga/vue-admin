@@ -9,11 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vee-validate/i18n": "^4.12.6",
     "@vee-validate/rules": "^4.12.6",
     "axios": "^1.6.8",
     "lodash": "^4.17.21",
     "mockjs": "^1.1.0",
-    "vee-validate": "4.5.8",
+    "vee-validate": "^4.12.6",
     "vue": "^3.3.11",
     "vue-router": "4",
     "yup": "^1.4.0"

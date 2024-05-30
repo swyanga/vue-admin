@@ -14,6 +14,9 @@ export default ({ command, mode }: ConfigEnv) => {
     // 配置别名
     resolve: {
       alias
+    },
+    server: {
+      port: 3000
     }
   }
 }

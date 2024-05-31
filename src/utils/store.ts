@@ -18,7 +18,6 @@ export default {
     const item = localStorage.getItem(key);
     if (item) {
       const data = JSON.parse(item);
-      console.log(data)
       const expire = data?.expire;
       if (expire && expire < new Date().getTime()) {
         localStorage.removeItem(key);

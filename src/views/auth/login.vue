@@ -17,7 +17,7 @@ const onSubmit = async (values: any) => {
   const { data: { token } } = await userApi.login(values)
   store.set('token', { expire: 10000, token })
   router.push({
-    name: 'admin.hd'
+    name: 'admin.home'
   })
 }
 

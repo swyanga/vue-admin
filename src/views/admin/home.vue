@@ -2,6 +2,8 @@
 
 </script>
 
-<template>home.vue</template>
+<template>
+
+</template>
 
 <style lang="scss" scoped></style>

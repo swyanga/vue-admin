@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import MenuComponent from './adminComponents/menu.vue'
+import MenuComponent from './admin/menu.vue'
+import Navbar from './admin/navbar.vue';
 </script>
 
 <template>
@@ -8,7 +9,8 @@ import MenuComponent from './adminComponents/menu.vue'
     <MenuComponent />
     <!-- 右侧区域 -->
     <div class="content flex-1 bg-gray-200">
-      <el-button type="warning">你好</el-button>
+      <!-- <el-button type="primary" /> -->
+      <Navbar />
       <router-view />
     </div>
   </div>
